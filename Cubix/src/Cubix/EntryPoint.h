@@ -12,6 +12,9 @@ extern cubix::Application* cubix::CreateApplication();
 
 int main(int argc, char** argv)
 {
+	cubix::Log::Init();
+	CX_CORE_INFO("Engine Started!");
+
 	cubix::Application* app = cubix::CreateApplication();
 	app->Run();
 	delete app;

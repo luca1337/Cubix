@@ -1,0 +1,3 @@
+[submodule "Cubix/vendor/spdlog"]
+	path = Cubix/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
